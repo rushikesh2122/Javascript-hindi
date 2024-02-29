@@ -9,7 +9,7 @@ const outsideTemp = null;  // => data type = Object
 const id = Symbol(123);    // => data type = Symbol
 const diffId = Symbol(123);
 
-console.log(id == diffId);
+// console.log(id == diffId);
 const bigNumber = 3456786789900n;  // => data type = BigInt
 
 
@@ -28,7 +28,7 @@ const myFunction = function(){   // => data type = function
     console.log("Hello World");
 }
 
-console.log(typeof iplTeams )
+// console.log(typeof iplTeams )
 
 
 // ** IMP ** 
@@ -40,3 +40,24 @@ console.log(typeof iplTeams )
 // string         =>  "string"
 // object         =>  "function"
 // Array          =>  "Object"
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive),  Heap (Non-Primitive)
+ 
+let myYoutubename = "rushikeshmalwale"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode";
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+let userTwo = userOne;
+userTwo.email = "rushikesh@google.com";
+console.log(userOne.email);
+console.log(userTwo.email);
