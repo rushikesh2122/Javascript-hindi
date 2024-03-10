@@ -1,7 +1,7 @@
 const arr = [1, 2, 3, 4, 5]
 
 for (const num of arr){
-    // console.log(num);
+    console.log(num);
 }
 
 const greetings = "Namaste Bharat";
@@ -25,11 +25,12 @@ map1.set("JLR", "Jaguar and Land Rover")
 
 // console.log(map1);
 
-const myObj = {
-    game1: 'NFS',
-    game2: 'CandyCrush'
-}
+// const myObj = {
+//     game1: 'NFS',
+//     game2: 'CandyCrush'
+// }
 
 for (const [key, value] of myObj){
-    console.log(key, ":", value);
+    // console.log(key, ":", value);
 }
+

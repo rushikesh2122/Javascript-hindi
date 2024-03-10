@@ -28,12 +28,47 @@
 
 // break and continue
 
-for (let i=0; i<=20; i++){
-    if (i == 5){
-        console.log("5 Detected");
-        continue;
-    }
-    console.log(`value of i is :${i}`);
+// for (let i=0; i<=20; i++){
+//     if (i == 5){
+//         console.log("5 Detected");
+//         continue;
+//     }
+//     console.log(`value of i is :${i}`);
+// }
+
+
+const numbers = [0, 1, 2, 3, 4, 5];
+// const result = [];
+// numbers.filter( (ele) => {
+    // if (ele<3){
+//        result.push(ele) 
+//     }
+// });
+// console.log(result);
+
+// const result = numbers.toString();
+// // console.log(result)
+// const obj = {... numbers};   //=> array to object 
+// console.log(obj)
+
+
+// +++++++++++++ IMP ++++++++++++++
+const user1 = {
+    name: "Rushikesh",
+    age: 22,
+    Design: "Student",
+    address: {
+        City: "Sambhajinagar",
+        State: "Maharashtra"
+    },
 }
+const user2 = user1;
 
+user1.name = "Rohit";
+user1.address.City = "Pune";
 
+// console.log(user1);
+// console.log(user2);
+
+console.log([1,2] == [1,2]);
+console.log
